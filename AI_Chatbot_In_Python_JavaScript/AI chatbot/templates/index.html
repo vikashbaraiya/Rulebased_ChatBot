@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Implement Sticky Header and Footer with CSS</title>
+<link rel="stylesheet" href="static/css/styles.css">
+<script src="static/js/chat.js"></script>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    {% include 'chat.html' %}
+    <div class="container">
+        <p></p>
+    </div>    
+    <div class="fixed-footer">
+        <div class="container" style="margin-right: -200px;">Copyright &copy; 2024 CDN Solutions Group</div>        
+    </div>
+</body>
+</html>
